@@ -39,7 +39,7 @@ body {
   font-family: var(--ff-schoolbell);
 }
 
-.p-header {
+h2 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bolder;
