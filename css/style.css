@@ -127,6 +127,9 @@ label i {
   color: #4282d1;
   margin-top: 10px;
   transform: rotate(-1deg);
+  /* background: #000;
+  border-radius: 20px;
+  padding: 0 20px; */
 }
 
 .grid2 a:hover {
@@ -196,7 +199,7 @@ nav a:hover {
 /* WRAPPER MAIN PAGES */
 
 .wrapper {
-  background-image: url(/img/blackboard.jpg);
+  background-image: url(/img/blackboard-darkened.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: chalky, sans-serif;
