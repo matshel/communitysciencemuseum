@@ -1,7 +1,7 @@
 /* VARIABLES */
 
 :root {
-  --color-primary: #eaf20c;
+  --color-primary: #f58427;
   --color-secondary: #7bc142;
   --ff-chalk: 'chalky', Tahoma, Verdana, Arial, sans-serif;
   --ff-schoolbell: 'Schoolbell', cursive;
@@ -61,7 +61,7 @@ h3 {
 }
 
 a {
-  color: #4282d1;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -93,14 +93,14 @@ label i {
   font-family: chalky, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
 #landing-info {
   display: none;
   font-size: 1.7rem;
-  color: #eaf20c;
+  color: #000;
   font-family: chalky, sans-serif;
   transform: rotate(-2deg);
   margin-right: 10px;
@@ -132,14 +132,14 @@ label i {
   padding: 0 20px; */
 }
 
-.grid2 a:hover {
+/* .grid2 a:hover {
   color: #eaf20c;
-}
+} */
 
 /* HAMBURGER MENU + HEADER */
 
 header {
-  background: #eaf20c;
+  /* background: #f58427; */
   min-height: 100px;
 }
 header i {
@@ -199,7 +199,8 @@ nav a:hover {
 /* WRAPPER MAIN PAGES */
 
 .wrapper {
-  background-image: url(/img/blackboard-darkened.jpg);
+  /* background-color: var(--color-primary); */
+  /* background-image: url(/img/blackboard-darkened.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   font-family: chalky, sans-serif;
@@ -219,7 +220,7 @@ nav a:hover {
   grid-column: 4/7;
   grid-row: 7/9;
   text-transform: uppercase;
-  color: #f58427;
+  color: #000;
   display: grid;
   justify-content: center;
 }
