@@ -120,7 +120,7 @@ label i {
   overflow: hidden;
 }
 
-.grid2 h1 {
+/* .grid2 h1 {
   grid-column: 1/9;
   font-size: 2.5rem;
   text-decoration: underline;
@@ -128,7 +128,7 @@ label i {
   color: #4282d1;
   margin-top: 10px;
   transform: rotate(-1deg);
-}
+} */
 
 .grid2 a:hover {
   color: #eaf20c;
@@ -213,14 +213,14 @@ nav a:hover {
   overflow-x: hidden;
 }
 
-.scroll-down {
+/* .scroll-down {
   grid-column: 4/7;
   grid-row: 7/9;
   text-transform: uppercase;
   color: #f58427;
   display: grid;
   justify-content: center;
-}
+} */
 
 /* FOOTER */
 
