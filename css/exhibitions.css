@@ -47,13 +47,11 @@ img {
   max-width: 100%;
 }
 
-/* media queries */
-
-@media only screen and (min-width: 500px) {
-  #item1 {
-    /* width: 300px; */
-  }
+.exhibitions p {
 }
+
+/* MEDIA QUERIES */
+
 @media only screen and (min-width: 606px) {
   #item1 {
     width: 80%;
@@ -152,9 +150,12 @@ img {
   }
   .scroll-down {
     grid-column: 3/6;
-    grid-row: 7/9;
+    grid-row: 8/9;
   }
   .exhibitions {
     margin: auto 20%;
+  }
+  .exhibitions p {
+    max-width: 800px;
   }
 }
