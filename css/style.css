@@ -1,7 +1,7 @@
 /* VARIABLES */
 
 :root {
-  --color-primary: #f58427;
+  --color-primary: #eaf20c;
   --color-secondary: #7bc142;
   --ff-chalk: 'chalky', Tahoma, Verdana, Arial, sans-serif;
   --ff-schoolbell: 'Schoolbell', cursive;
@@ -46,7 +46,7 @@ h2 {
   font-family: 'Schoolbell', cursive;
   margin: 30px 0 20px 0;
   padding: 7px;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
   color: #000;
   text-align: center;
   width: 100%;
@@ -61,7 +61,7 @@ h3 {
 }
 
 a {
-  color: #000;
+  color: #4282d1;
   text-decoration: underline;
 }
 
@@ -90,10 +90,10 @@ label i {
 
 .wrapper a {
   font-size: 2rem;
-  font-family: chalky, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -101,10 +101,11 @@ label i {
   display: none;
   font-size: 1.7rem;
   color: #000;
-  font-family: chalky, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   transform: rotate(-2deg);
   margin-right: 10px;
   text-transform: uppercase;
+  background-color: #fff;
 }
 
 /* GRID FOR MAIN PAGES */
@@ -127,19 +128,16 @@ label i {
   color: #4282d1;
   margin-top: 10px;
   transform: rotate(-1deg);
-  /* background: #000;
-  border-radius: 20px;
-  padding: 0 20px; */
 }
 
-/* .grid2 a:hover {
+.grid2 a:hover {
   color: #eaf20c;
-} */
+}
 
 /* HAMBURGER MENU + HEADER */
 
 header {
-  /* background: #f58427; */
+  /* background: #eaf20c; */
   min-height: 100px;
 }
 header i {
@@ -199,11 +197,10 @@ nav a:hover {
 /* WRAPPER MAIN PAGES */
 
 .wrapper {
-  /* background-color: var(--color-primary); */
-  /* background-image: url(/img/blackboard-darkened.jpg); */
+  background-image: url(/img/blackboard.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: chalky, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 93vh;
 }
 
@@ -220,7 +217,7 @@ nav a:hover {
   grid-column: 4/7;
   grid-row: 7/9;
   text-transform: uppercase;
-  color: #000;
+  color: #f58427;
   display: grid;
   justify-content: center;
 }
