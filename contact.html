@@ -1,108 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Mats Helgesen" />
-    <meta
-      name="description"
-      content="Community Science Museum of London gladly answer all your question regarding the museum and its activities at any time!"
-    />
-    <meta
-      name="keywords"
-      content="Contact, Museum, children, kids, tour, tours, science, cosmology, ecology, evolution, medicine, robotics, AI "
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/cam2ous.css" />
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Contact Us - Community Science Museum</title>
-  </head>
-  <body>
-    <header>
-      <a href="index.html"
-        ><img src="img/svg-logo2.svg" class="logo" alt="logo"
-      /></a>
-      <label class="hamburger-label" for="hamburger-menu"
-        ><i class="fas fa-bars fa-2x"></i
-      ></label>
-      <input type="checkbox" id="hamburger-menu" />
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li>
-            <a href="exhibitions.html">Exhibitions</a>
-          </li>
-          <li>
-            <a href="explore.html">Explore</a>
-          </li>
-          <li>
-            <a href="involvement.html">Involvement</a>
-          </li>
-          <li>
-            <a href="visiting-info.html">Info</a>
-          </li>
-          <li>
-            <a href="contact.html" class="current">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="wrapper">
-        <div class="grid2">
-          <h1>Contact Us!</h1>
-          <form action="contact-success.html">
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Your Email" />
-            <textarea placeholder="Your message here"></textarea>
-            <button type="submit" value="SEND" class="button">Send</button>
-          </form>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/contact.css" />
+        <title>Exhibitions | CS Museum</title>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html" aria-label="Logo go to home page"><span>Cs</span> Museum</a>
+                </div>
+                <div class="space"></div>
+                <ul class="nav-links">
+                    <li><a href="index.html" aria-label="Go to home page">Home</a></li>
+                    <li><a href="exhibitions.html" aria-label="Go to blog exhibitions page">Exhibitions</a></li>
+                    <li><a href="explore.html" aria-label="Go to explore page">Explore</a></li>
+                    <li><a href="about.html" aria-label="Go to about page">About</a></li>
+                    <li class="this-page"><a href="contact.html" aria-label="Go to contact page">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation end -->
+        <!-- hero section home -->
+        <div class="hero-section">
+            <div class="hero-container">
+                <div class="hero-info-box">
+                    <h1>Contact</h1>
+                    <p>Send us a message!!</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html#scroll-contact-section"><div class="cta-button">Contact</div></a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </main>
-    <footer>
-      <div class="footer grid-footer">
-        <div id="visit-location">
-          <h3>Visit location</h3>
-          <span>Strong Street 77</span>
-          <span>7777 best place</span>
+        <!-- hero section home end -->
+        <!-- scroll down -->
+        <div class="scroll" id="scroll-contact-section"></div>
+        <!-- scroll down end -->
+        <!-- explore section -->
+        <div class="contact-section">
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <div id="message"></div>
+                    <form id="contactForm">
+                        <div>
+                            <input name="contactName" id="contactName" aria-label="Name" placeholder="Full Name*" />
+                            <div class="form-error" id="contactNameError">Please enter your name* (minimum 5 characters)</div>
+                        </div>
+                        <div>
+                            <input name="email" id="email" aria-label="Email" placeholder="Email*" />
+                            <div class="form-error" id="emailError">Please enter a valid email address*</div>
+                        </div>
+                        <div>
+                            <input name="subject" id="subject" aria-label="Subject" placeholder="Subject*" />
+                            <div class="form-error" id="subjectError">Subject must have minimum 15 characters*</div>
+                        </div>
+                        <div>
+                            <textarea
+                                name="contentMessage"
+                                id="contentMessage"
+                                aria-label="Message"
+                                placeholder="Write your message here*"
+                            ></textarea>
+                            <div class="form-error" id="contentMessageError">Message must have minimum 25 characters*</div>
+                        </div>
+                        <button class="contact-button" aria-label="Submit contact form">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div id="hours">
-          <h3>Hours</h3>
-          <ul>
-            <li>Monday: Closed</li>
-            <li>Tuesday: 10:00 – 16:00</li>
-            <li>Wednesday: 10:00 – 16:00</li>
-            <li>Thursday: 10:00 – 16:00</li>
-            <li>Friday: 10:00 – 19:00</li>
-            <li>Saturday: 9:00 – 16:00</li>
-            <li>Sunday: 9:00 – 13:00</li>
-          </ul>
+        <!-- explore section end -->
+        <!-- scroll down -->
+        <div class="scroll" id="scroll-visit-section"></div>
+        <!-- scroll down end -->
+        <!-- get involved section -->
+        <div class="visit-section">
+            <div class="visit-container">
+                <div class="visit-item">
+                    <div class="image">
+                        <!-- <img src="/images/map-small.jpg" alt="" /> -->
+                    </div>
+                    <div class="info"></div>
+                </div>
+            </div>
         </div>
-        <div id="admission">
-          <h3>Admission</h3>
-          <span>The entrance is free for all</span>
-        </div>
-        <div id="follow">
-          <h3>Follow us</h3>
-          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-          <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-        </div>
-      </div>
-      <div id="copyright">
-        <span>Copyright 2020</span>
-        <span>Community Science Museum</span>
-        <span><i class="fas fa-copyright"></i></span>
-      </div>
-    </footer>
-  </body>
+        <!-- get involved section end-->
+        <!-- explore section end-->
+        <!-- footer -->
+        <footer>
+            <div class="footer-container">
+                <i class="far fa-copyright" aria-hidden="true"> Copyright 2021 CS Museum</i>
+            </div>
+        </footer>
+        <!-- footer end -->
+        <script src="js/contact.js"></script>
+        <script src="js/navSlider.js"></script>
+    </body>
 </html>

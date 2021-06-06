@@ -1,0 +1,88 @@
+/* hero section exhibitions */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("/images/bilbao-3724731_1920.jpg");
+}
+/* hero section exhibitions */
+
+/* scroll about section */
+#scroll-about-section {
+    background: #f8f8f8;
+}
+/* scroll about section end */
+
+/* about section */
+.about-section {
+    background: #f8f8f8;
+    padding-bottom: 20px 0;
+}
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-item .info {
+    margin-bottom: 30px;
+}
+
+.about-item h2,
+.visit-item h2,
+.visit-item ul {
+    margin: 0 0 10px 20px;
+}
+
+.about-item p,
+.visit-item p {
+    margin: 0 20px 20px 20px;
+}
+/* about section end */
+
+.image img {
+    width: 100%;
+}
+
+/* visit section */
+/* .visit-section {
+    background: #f8f8f8;
+    padding: 80px 0;
+} */
+.visit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-item {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+}
+
+.visit-item .info {
+    margin-bottom: 30px;
+}
+/* visit section end */
+
+/* media queries */
+/* @media screen and (min-width: 768px) {
+
+} */
+@media screen and (min-width: 1000px) {
+    .about-item {
+        flex-direction: row;
+    }
+    .visit-item {
+        flex-direction: row;
+    }
+    .about-section,
+    .visit-section {
+        padding: 80px 0;
+    }
+}
+/* media queries end */
