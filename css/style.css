@@ -132,7 +132,7 @@ p {
 
 .this-page,
 .this-page a {
-    color: white;
+    color: black;
     background: var(--primary-color);
 }
 
